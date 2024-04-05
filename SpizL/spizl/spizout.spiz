@@ -1,0 +1,12 @@
+﻿spiz:
+	int a = 10
+	dospiz a > 2
+		dospiz a < 20
+			a = a + 1
+			spif a > 15
+				sprint(a)
+				spizout..
+		a = a + 1
+		spif a > 100
+			spizout..
+	sprint(a).

@@ -1,0 +1,25 @@
+﻿spiz:
+lint list
+spad(list,10,3,0,2,5,4,1, 98)
+int t = 0
+int p = 0
+int i = 0
+int a = 0
+
+
+
+dospiz p < splen(list) - 1
+	dospiz i < splen(list) - 1
+		spif list[i] > list[i+1]
+			t = list[i+1]
+			list[i+1] = list[i]
+			list[i] = t.
+		i = i + 1.
+	i = 0
+	p = p + 1.
+
+sprint(splen(list))
+
+dospiz a < splen(list)
+	sprint(list[a])
+	a = a + 1..

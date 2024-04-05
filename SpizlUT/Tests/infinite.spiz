@@ -1,0 +1,11 @@
+﻿spiz:
+	int i = 0
+	dospiz
+		dospiz
+			dospiz
+				spif i > 1000000
+					spizout 3.
+				i = i + 1.
+			sprint('fail').
+		sprint('fail2').
+	sprint(i).

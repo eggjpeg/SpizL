@@ -1,0 +1,16 @@
+﻿IL_0000:  ldc.i4.0		//push 0 to the stack
+IL_0001:  stloc.0		// pop first dude into local variable 0
+IL_0002:  br.s       IL_000e	//goto line e
+IL_0004:  [BODY]
+
+IL_000a:  ldloc.0		//load local var 0 onto stack
+IL_000b:  ldc.i4.1		//push 1 to the stack
+IL_000c:  add		// add the 2 previous dudes together
+IL_000d:  stloc.0		//pop result of add into local var 0
+IL_000e:  ldloc.0 		//load local var 0 onto stack
+IL_000f:  ldc.i4.s   [TO]	//push 10 onto stack
+IL_0011:  blt.s      IL_0004	// go to line 4 if local var 0 > 10
+
+
+
+

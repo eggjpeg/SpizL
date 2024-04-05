@@ -1,0 +1,11 @@
+﻿int i = 0
+i = 2+(i+1)*3
+dospiz s = i, 10, 2
+	spif s = 5
+		spif s = 3
+			dospiz n = i, 10, 2
+				spizout..
+        sprint 'yomama'.
+	spelz
+		sprint s..
+spizdun

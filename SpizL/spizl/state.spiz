@@ -1,0 +1,4 @@
+﻿int i = 0
+str s = 'str'
+lint li = 5,6,7,8
+lstr ls = 'spiz','str'

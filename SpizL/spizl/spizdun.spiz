@@ -1,0 +1,6 @@
+﻿spiz:
+	int i = Testspizdun(1)
+	sprint(i).
+
+Testspizdun(int i): int
+	spizdun 5.

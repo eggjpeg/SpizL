@@ -1,0 +1,13 @@
+﻿str s = 'spz'
+str a
+int acc = 0
+lstr ls
+spad(ls,'ass','spiz')
+a=spat(s,' a  ',' d ',' d ')
+
+dospiz acc < splen(ls)
+	sprint(a)
+	a = spat(a,ls[acc])
+	acc = acc + 1.
+
+sprint(a)

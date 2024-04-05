@@ -1,0 +1,4 @@
+﻿1. put vars inside exps
+2. strings
+3.  make the whole thing compile
+4. spiz

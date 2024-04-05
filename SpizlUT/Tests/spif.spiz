@@ -1,0 +1,11 @@
+﻿spiz:
+	int i = 0
+	spif i >= 0
+		spif i >= 0
+			sprint(i).
+		spelz 
+			sprint('spiz')..
+	spelz 
+		sprint('massive spiz').
+	spif i = 0
+		sprint('spz')..

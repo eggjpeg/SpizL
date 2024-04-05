@@ -1,0 +1,8 @@
+﻿lint a
+lint b
+int spz = 0
+
+spad(a,1,2)
+spad(b,5,7,8)
+a[spz] = b[spz]
+sprint(a[1])

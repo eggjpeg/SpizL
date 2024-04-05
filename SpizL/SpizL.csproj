@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{50936DF2-9223-411E-8393-B538B5927AD0}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>spizL</RootNamespace>
+    <AssemblyName>spizL</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Compiler\Compiler.cs" />
+    <Compile Include="Compiler\Function.cs" />
+    <Compile Include="Compiler\Instruction.cs" />
+    <Compile Include="Parser\AST.cs" />
+    <Compile Include="Parser\Assignment.cs" />
+    <Compile Include="Parser\Declaration.cs" />
+    <Compile Include="Parser\ExpNode.cs" />
+    <Compile Include="Parser\Expression.cs" />
+    <Compile Include="Parser\FunctionCall.cs" />
+    <Compile Include="Lexer\Lexer.cs" />
+    <Compile Include="Parser\FunctionDef.cs" />
+    <Compile Include="Parser\FunctionLib.cs" />
+    <Compile Include="Parser\Dospiz.cs" />
+    <Compile Include="Parser\Node.cs" />
+    <Compile Include="Parser\Parser.cs" />
+    <Compile Include="Parser\spizout.cs" />
+    <Compile Include="spizL.cs" />
+    <Compile Include="Parser\spizdun.cs" />
+    <Compile Include="Traversal\Squirrel.cs" />
+    <Compile Include="Traversal\State.cs" />
+    <Compile Include="Traversal\VarState.cs" />
+    <Compile Include="Util.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Parser\Spelz.cs" />
+    <Compile Include="Parser\Spelzif.cs" />
+    <Compile Include="Parser\Spif.cs" />
+    <Compile Include="Lexer\Token.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="IL\Main.il" />
+    <None Include="IL\sprint_int.il" />
+    <None Include="IL\sprint_str.il" />
+    <None Include="packages.config" />
+    <None Include="spizl\dospiz_simple.spiz">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="spizl\foreach.spiz">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="spizl\infinite.spiz">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="spizl\qs2.spiz" />
+    <None Include="spizl\Quicksort.spiz">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="spizl\add.spiz">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="spizl\bubblespiz.spiz">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="spizl\factorial.spiz">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="spizl\spizthefirst.spiz">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="spizl\function.spiz">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="spizl\nested.spiz">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="spizl\simplespiz.spiz">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="spizl\spizdun.spiz">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="spizl\spizout.spiz">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="spizl\str.spiz">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="spizl\spif.spiz">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="spizl\state.spiz">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="spizl\_exp.spiz">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="spizl\Dospiz.spiz">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="spizl\lists.spiz">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="spizl\list_ass.spiz">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="spizl\int.spiz">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="IL\Dospiz_IL.txt" />
+    <Content Include="IL\if.il.txt" />
+    <Content Include="IL\infinitespiz.il.txt" />
+    <Content Include="IL\simpleloop.il.txt" />
+    <Content Include="spizl\spizlroadmap.png" />
+    <Content Include="todo.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\ILAsm.4.700.1.0\build\net\ILAsm.targets" Condition="Exists('..\packages\ILAsm.4.700.1.0\build\net\ILAsm.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\ILAsm.4.700.1.0\build\net\ILAsm.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\ILAsm.4.700.1.0\build\net\ILAsm.targets'))" />
+  </Target>
+</Project>

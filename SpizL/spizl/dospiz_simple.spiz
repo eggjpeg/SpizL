@@ -1,0 +1,6 @@
+﻿spiz:
+	lint list
+	spad(list,5,6,7)
+	dospiz int item list 
+		sprint(item).
+	sprint('done').

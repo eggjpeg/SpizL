@@ -1,0 +1,7 @@
+﻿int acc = 0
+
+dospiz acc < 2
+	sprint(acc)
+	acc = acc + 1.
+
+sprint(acc)

@@ -1,0 +1,10 @@
+﻿lint lst 
+int i = 0
+spad(lst,2,3,4,5)
+spre(lst,0,2)
+
+lst[1] = 5
+
+dospiz i < splen(lst)
+	sprint(lst[i])
+	i = i + 1.

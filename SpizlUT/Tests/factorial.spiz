@@ -1,0 +1,7 @@
+﻿factorial(int n):
+	spif n = 0
+		spizdun 1.
+	spizdun n * factorial(n - 1).
+
+spiz:
+	sprint(factorial(10)).

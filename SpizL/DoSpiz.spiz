@@ -1,0 +1,13 @@
+﻿int i = 0
+i = i+1
+dospiz s = i, 10, 2
+	dospiz j = 1,5,1
+		int spz = 0
+		spz = spz + i.
+	i = i + 1
+	dospiz k = 1,5,1
+		int sp = 0
+		sp = sp + i 
+		spizout 2..
+i = i + 1
+			
