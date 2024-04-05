@@ -45,5 +45,3 @@ I like a lot of the features in C# but there were many mysteries to me as to why
 3. The compiler is not working yet but it does generate assembly code.
 
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
