@@ -1,4 +1,4 @@
-# SpizL
+# SpizL - A Custom Programming Language 
 
 ## Explanation
 This project aims to develop a custom programming language "SpizL" using C# that includes both an interpreter and the beginnings of a compiler. The purpose of this project was for me to learn programming since I believe that writing a language allows you to gain a very good understanding of any programming language. This was developped in my senior year of high school. I wasn't aware of github back then so everything has just been freshly pushed.
